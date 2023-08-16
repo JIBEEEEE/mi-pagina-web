@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina jibe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d9f777f155.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---------------Header------------ -->
+     <div id="header">
+         <div class="container">
+            <nav>
+                <img src="images/logo jibe.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Sobre mi</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p >Community Manager / Desarrollador Web</p>
+                <h1 >hola soy <span>Juanjo</span><br> bienvenidos</h1>
+            </div>
+         </div>
+     </div>
+<!---------------About------------ -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/jibe foto fondo.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">Sobre mi</h1>
+                    <p>Especialista en administración de redes sociales y en la creación de contenidos.
+                         Busco ampliar el alcance de las marcas que gestiono aumentando la cantidad de seguidores en redes y potenciando la interacción de la comunidad virtual. 
+                         Tambien soy desarrollador web full stack jr, con meses de experiecia y practicas.
+                          Me gustaría trabajar en un entorno en el que se priorice la comunicación con el cliente. Profesional con más de 4 años de experiencia.
+                           Soy una persona comunicativa, extrovertida y amable, con buenas referencias y gran capacidad de trabajo.
+                            </p>
+
+                          <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Habilidades</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experiencia</p>
+                            <p class="tab-links"onclick="opentab('Education')">Eduacíon</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Tecnologías</span><br>Adobe Premiere - Adobe Photoshop - Adobe After Effects - JavaScript - HTML5 - CSS3 - Obs - Excel & Google Sheets - Google Analytics - Google Tag Manager - Mailchimp - PowerPoint - Worldpress - Excel
+                                  </li>
+                                <li><span>Idiomas</span><br>Castellano: Nativo - Ingles: Nivel B2 Intermedio Alto</li>
+                               
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Community manager
+                                </span><br>Alberto Sardiñas (Conductor de Univisión
+                                Miami)| Enero 2020 - Septiembre 2022-
+                                Miami (USA)</li>
+
+                                <li><span>Community manager
+                                </span><br>RTP advisory services| Febrero 2018 - Mayo
+                                2020- Buenos Aires (Argentina)</li>
+
+                                <li><span>Community manager
+                                </span><br>HEAD GROUP, International Management
+                                | Mayo 2023 - Junio 2023- España (Madrid)</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Digital House</span><br>Programador Full Stack jr| Buenos Aires
+                                    Asistencia completa.
+                                    </li>
+                                <li><span>Escuela Da Vinci
+                                </span><br>Curso de Marketing Digital
+                                Tecnología: Google Ads - Social Media
+                                Marketing - Website - Email Marketing - SEO -
+                                Marketing de Contenidos</li>
+
+                                <li><span>Escuela ORT
+                                   </span><br>Titulo Secundario
+                                   Especialidad: Tecnologías de la información y la
+                                   comunicación</li>
+                                   <li><span>Universidad del cine
+                                </span><br>Director Cinematográfico| Septiembre 2019 -
+                                2022</li>
+                                <li><span>Universidad del Salvador
+                                </span><br>Psicología | Septiembre 2015 - Julio 2018
+                            </li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-----------------services----------------------- -->
+
+     <div class="services">
+        <div class="container">
+            <h1 class="sub-tittle">Mis servicios</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB DESING</h2>
+                    <p>Joven con pasión por su profesión, excelente capacidad de organización y facilidad para el trabajo en equipo.
+                         Persona muy adaptable a todo tipo de entornos y clara orientación a objetivos.
+                         Desearía desarrollarme profesionalmente en una empresa con proyección de futuro..</p>
+                         
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Community Manager</h2>
+                    <p>Profesional con amplia experiencia y muchas ganas de trabajar.
+                         Me caracterizo por mi capacidad para solucionar problemas, priorizar y gestionar proyectos y trabajar en equipo.
+                         Busco una oportunidad para desarrollar mi carrera y dar lo mejor de mí..</p>
+                         
+                </div>
+
+            
+            </div>
+        </div>
+     </div>
+
+    <!----------------------portfolio------------  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">Mi trabajo</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Community Manager</h3>
+                    <p>5 años de experiencia, trabajando para varios paises desde Argentina, Estados Unidos y España. Profesional con amplia experiencia y muchas ganas de trabajar. Dejo adjunto mi linkedin para mas informacíon de mi trabajo como Community Manager</p>
+                          <a href="https://www.linkedin.com/in/juan-jose-libedinsky/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/dessarrollo web.png">
+                <div class="layer">
+                    <h3>Diseños web</h3>
+                    <p>Desarrollador Jr, con gran interés en acceder al mercado laboral para poner en práctica mis conocimientos. 
+                        Soy una persona trabajadora, comunicativa y comprometida. Desearía encontrar una oportunidad para adquirir más experiencia profesional.</p>
+                          <a href="https://www.linkedin.com/in/juan-jose-libedinsky/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/creador de contenido.png">
+                <div class="layer">
+                    <h3>Creador de Contenido</h3>
+                    <p>Youtuber, Streamer, tiktoker desde 2020, muy activo en mis redes, como tambien fui editor de varios canales de youtube de mas de 100k de subscriptores. Dejo todas mi redes adjuntas</p>
+                          <a href="https://linktr.ee/jibee"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Ver mas</a>
+    </div>
+</div>
+<!----------------------contact------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+<h1 class="sub-title">Contacto</h1>
+<p><i class="fa-solid fa-paper-plane"></i>juanjolibe98@gmail.com</p>
+<p><i class="fa-solid fa-phone"></i> +34 670521613</p>
+<div class="social-icons">
+    <a href="https://www.facebook.com/juanjose.libedinsky"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://twitter.com/ElJIBE2"><i class="fa-brands fa-twitter-square"></i></a>
+    <a href="https://www.instagram.com/jibecai/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/juan-jose-libedinsky/"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<a href="https://jibeeeee.github.io/mi-pagina-web/images/Curr%C3%ADculum%20Juan%20Jose%20Libedinsky.pdf" download class="btn btn2">Descargar CV</a>
+            </div>
+            <div class="contact-right">
+
+
+<span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Jibe <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+     <Script>
+        var tablinks = document.getElementsByClassName ("tab-links");
+        var tabcontents = document.getElementsByClassName ("tab-contents");
+        function opentab (tabname){
+            for (tablink of tablinks){
+            tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+
+        }
+     </Script>
+
+     <script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu (){
+    sidemenu.style.right = "0" ;
+}
+
+function closemenu (){
+    sidemenu.style.right = "-200px" ;
+}
+
+     </script>
+     
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyB4C4iSJDQkb-viVmCJKc-lyVFv3z8k3PEEpl-qyZmO5DJE1jmEPXoFwOSRP0Oi8Bm-A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Mensaje Enviado Corectamente"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
